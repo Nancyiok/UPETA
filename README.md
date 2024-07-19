@@ -1,2 +1,2 @@
-# UPETA-
+# UPETA
 Pet adoption website
