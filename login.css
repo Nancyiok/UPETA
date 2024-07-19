@@ -1,0 +1,227 @@
+
+body{
+    margin: 0;
+    width: 200vh;
+    overflow: hidden;
+}
+.form {
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+}
+
+@media (max-width: 991px) {
+     .container {
+         flex-direction: column;
+         align-items: stretch;
+}
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 57%;
+    margin-left: 0px;
+}
+ @media (max-width: 991px) {
+     .column {
+         width: 100%;
+}}
+
+
+img.photocat {
+    inset: 0;
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+
+.column-2 {
+    display: flex;
+    flex-direction: row;
+    line-height: normal;
+    width: 43%;
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+}
+
+@media (max-width: 991px) {
+    .column-2 {
+        font-size: 40px;
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+
+.header{
+    display: flex;
+    margin-top: 22px;
+    flex-direction: column;
+    font-size: 20px;
+    color: #b0abab;
+    font-weight: 400;
+    padding: 0 20px;
+}
+ @media (max-width: 991px) {
+     .header {
+         max-width: 100%;
+         margin-top: 40px;
+     }
+ }
+
+
+ 
+@media (max-width: 991px) {
+    .logo {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+
+.headerlog {
+    color: #4a1616;
+    margin-top: 24px;
+    font: 700 48px Montserrat Alternates, -apple-system, Roboto, Helvetica,sans-serif;
+}
+
+ @media (max-width: 991px) {
+     .headerlog {
+         max-width: 100%;
+         margin-top: 40px;
+     }
+ }
+
+.captionlog {
+    font-family: Microsoft JhengHei, -apple-system, Roboto, Helvetica,sans-serif;
+    margin-top: 57px;
+}
+
+ @media (max-width: 991px) {
+     .headerlog {
+         max-width: 100%;
+         margin-top: 40px;
+     }
+ }
+
+
+.username {
+    font-family: Microsoft JhengHei, -apple-system, Roboto, Helvetica,sans-serif;
+    margin-top: 52px;
+    border-radius: 50px;
+    border-color: rgba(176, 171, 171, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-top: 49px;
+    height: 60px;
+    width: 488px;
+}
+  @media (max-width: 991px) {
+      .username {
+          max-width: 100%;
+          margin-top: 40px;
+      }
+  }
+.password {
+    font-family: Microsoft JhengHei, -apple-system, Roboto, Helvetica,sans-serif;
+    margin-top: 50px;
+    border-radius: 50px;
+    border-color: rgba(176, 171, 171, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-top: 36px;
+    height: 60px;
+    width: 488px;
+}
+
+ @media (max-width: 991px) {
+     .password {
+         max-width: 100%;
+         margin-top: 40px;
+     }
+ }
+
+.blogin {
+    border-radius: 50px;
+    border-color: rgba(176, 137, 137, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #b08989;
+    margin-top: 40px;
+    align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    font: 650 32px Microsoft Tai Le, -apple-system, Roboto, Helvetica,sans-serif;
+    height: 60px;
+    width: 488px;
+    transition: 0.5s;
+    
+}
+ @media (max-width: 991px) {
+     .blogin {
+         max-width: 100%;
+         margin-top: 20px;
+         white-space: initial;
+         padding: 0 10px;
+     }
+ }
+
+ .blogin:hover {
+    background-color: #4A1616;
+    box-shadow: 2px 5px 10px #4A1616 ;
+    border: #4A1616;
+}
+
+input::placeholder {
+    font-size: 15px; 
+    color: #b0abab; 
+  }
+
+.question{
+    display: flex;
+    color: #000;
+    font-family: Microsoft New Tai Lue, -apple-system, Roboto, Helvetica,sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.transition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Microsoft New Tai Lue, -apple-system, Roboto, Helvetica,sans-serif;
+    font-weight: 700;
+    margin:auto;
+}
+
+a{
+    text-decoration: none;
+    color: #905252;
+}
+a:hover{
+    color: #4a1616;
+}
+
+#loginpassword-match-message{
+    padding: 2px;
+    text-align: center;
+    color: rgb(209, 111, 111);
+    font-family: Microsoft New Tai Lue, -apple-system, Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+

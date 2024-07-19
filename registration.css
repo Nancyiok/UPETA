@@ -1,0 +1,172 @@
+
+body{
+    margin: 0;
+    overflow: hidden;
+
+}
+.column{
+    display: flex;
+    float: inline-end;
+
+}
+
+
+img{
+    object-fit: cover;
+    object-position: center;
+    width: 650px;
+    max-height: 900px;
+}
+.sign-up{
+    margin: 10px;
+}
+
+
+.column-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    line-height: normal;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    object-position: center;
+    max-width: 15%;
+    max-height: 20%;
+    block-size: auto;
+    
+}
+
+
+.container {
+    gap: 50px;
+
+}
+
+.align-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin: 100px;
+
+}
+
+.headerlog{
+    color: #4a1616;
+    margin-top: 10px;
+    font: 700 48px Montserrat Alternates, -apple-system, Roboto, Helvetica,sans-serif;
+}
+
+.captionsn{
+    color: #b0abab;
+    margin-top: 15px;
+    font: 400 17px Microsoft JhengHei, -apple-system, Roboto, Helvetica,sans-serif;
+}
+
+.name, .surname, .email, .username, .password, .confirmpassword{
+    border-radius: 50px;
+    border-color: rgba(176, 171, 171, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-top: 14px;
+    height: 60px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.bsignup {
+    text-align: center;
+    border-radius: 50px;
+    border-color: rgba(176, 137, 137, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #b08989;
+    margin-top: 20px;
+    color: #fff;
+    font: 650 32px Microsoft Tai Le, -apple-system, Roboto, Helvetica,sans-serif;
+    height: 60px;
+    width: 430px;
+    margin-top:40px ;
+    transition: 0.5s;
+}
+ @media (max-width: 991px) {
+     .signup {
+         max-width: 100%;
+         margin-top: 20px;
+         white-space: initial;
+         padding: 0 10px;
+     }
+ }
+
+button:hover {
+    background-color: #4A1616;
+    box-shadow: 2px 5px 10px #4A1616 ;
+    border: #4A1616;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+}
+
+.question{
+    display: flex;
+    color: #000;
+    font-family: "Microsoft New Tai Lue";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.transition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #905252;
+    font-family: "Microsoft New Tai Lue";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Microsoft New Tai Lue, -apple-system, Roboto, Helvetica,sans-serif;
+    font-weight: 700;
+   margin: auto;
+   margin-top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #905252;
+}
+a:hover{
+    color: #4a1616;
+}
+
+#password-match-message {
+    color: #852525;
+    font-family: Microsoft New Tai Lue, -apple-system, Roboto, Helvetica,sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+

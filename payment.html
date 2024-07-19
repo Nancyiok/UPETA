@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link href="payment.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img class="logo" src="images/photo_2024-06-28_12-42-07__2_-removebg-preview.png" alt="logo">
+            <nav class="navigation">
+                <ul>
+                    <li id="top"><a class="scaled1" href="main.page.html">Home</a></li>
+                    <li id="top"><a class="scaled2" href="main.page.html#help">How to help</a></li>
+                    <a href="petadoption.html"><li id="top"><label for="adoption-btn"></label><button class="adoption" type="button" id="adoption-btn"
+                            name="adoption" value="Adopt">Adopt</button></li></a>
+                    <li id="top"><a class="scaled3" href="about.html">About us</a></li>
+                    <li id="top"><a class="scaled4" href="login.html">Log in / <a href="registration.html" >Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="payment">
+            <div class="donation-options">
+                <div class="chousetype">
+                    <span id="title">Support the tails through a donation</span><br>
+                </div>
+                <div class="donation-amount">
+                    <input type="number" id="custom-amount" min="1" placeholder="Enter amount">
+                    <button id="confirm-btn">Confirm</button>
+                </div>
+            </div>
+            <div class="donation-photo">
+                <img src="images/загрузка (31).jpg" alt="Charity Photo">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <ul class="fnav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#help">How to help</a></li>
+              <li><a href="petadoption.html">Adopt a pet</a></li>
+              <li><a href="payment.html">Donate</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="adoptionrules.html">Adoption rules</a></li>
+            </ul>
+        </nav>
+        <p>
+          <strong>Email:</strong> <a href="mailto:anastasiakurdiukov@gmail.com">anastasiakurdiukov@gmail.com</a><br>
+          <strong>Phone:</strong> +380666595234
+        </p>
+        <p>&copy; 2024 UPETA Website was developed by Kurdiukova Anastasia, group 122-23-1</p>
+    </footer>
+    <script>
+        document.getElementById('confirm-btn').addEventListener('click', function() {
+            var customAmount = document.getElementById('custom-amount').value;
+            if (customAmount !== '' && !isNaN(customAmount) && customAmount > 0) {
+                var donationLink = 'https://send.monobank.ua/jar/7R5kg5fSoC?amount=' + customAmount;
+                window.location.href = donationLink;
+            } else {
+                alert('Please enter a valid amount.');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    background-color: #F8DFDF;
+}
+
+.logo {
+    width: 15%;
+    margin-right: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    font-size: 32px;
+    color: #000;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.logo {
+    margin-right: auto;
+}
+
+.header-container button {
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    max-width: 203px;
+    max-height: 84px;
+    margin-top: 61px;
+    color: #fff;
+    padding: 27px 38px;
+    font: 700 32px Montserrat, sans-serif;
+    align-self: center;
+}
+button[type="button"]:hover {
+    background-color: #4A1616;
+}
+
+.main-caption {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.main-caption span {
+    color: #4a1616;
+    font: 900 46px Montserrat Alternates, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.main-caption p {
+    color: #000;
+    margin-top: 8px;
+    font: 400 20px Microsoft JhengHei, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.main-caption {
+    margin-top: 30px;
+    margin-left: 53px;
+}
+
+#main-image{
+    width: 550px;
+    height: 350px;
+    transform: rotate(11.247deg);
+    border-radius: 50px;
+    background: url("images/dogwithtoy.jpg") lightgray 50% / cover no-repeat;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span.caption{
+    width: 530px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    height: 165px;
+    transform: rotate(-2deg);
+    transform-origin: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+    position: relative;
+}
+
+
+.rectangle{
+    border-radius: 60px;
+    background: #A57676;
+    width: 549px;
+    height: 161px;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    top: 380px;
+    transform: rotate(-2deg);
+
+}
+
+button.rrules{
+    width: 552px;
+    position: relative;
+    border-radius: 60px;
+    background-color: #fff;
+    border: #fff;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    margin-top: 70px;
+    transition: 0.5s;
+    
+}
+
+
+.rrules span{
+    width: 458px;
+    position: relative;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: Mulish;
+    text-align: center;
+    display: inline-block;
+    height: 45px;
+        
+}
+
+
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#adminContainer,
+#animalContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.animal-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.admin-animal-photo,
+.animal-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+
+
+button:hover {
+    background-color: #a07878;
+}
+
+#tc{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+#meet{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;;
+    color: #4a1616;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+#copyButton{
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    max-width: 300px;
+    max-height: 84px;
+    color: #fff;
+    padding: 10px 20px;
+    font: 700 32px Montserrat, sans-serif;
+    align-self: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#phoneNumber{
+    font: 600 32px Montserrat, sans-serif;
+    color:#4A1616
+   
+}
+
+.number{
+    margin: 20px auto;
+
+
+}
+
+.aligni{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#n{
+    font-size: 24px;
+    display: flex;
+    color: #a57676;
+    text-align: left;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fnav{
+    font-size: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+
+}
+
+footer {
+    background-color: #b08989;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+footer nav {
+    margin-bottom: 10px;
+  }
+  
+footer nav ul.fnav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+footer nav ul.fnav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+footer nav ul.fnav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+footer nav ul.fnav li a:hover {
+    text-decoration: underline;
+  }
+  
+footer p {
+    margin: 10px 0;
+  }
+  
+footer p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+footer p a:hover {
+    text-decoration: underline;
+  }
+  
+footer p strong {
+    font-weight: bold;
+  }
+  
+footer p:last-child {
+    font-size: 0.7em;
+    color: #e8e2e2;
+  }
+  
+#phoneLink{
+    font-size: 32px;
+    color: #000;
+    }
+    
+button{
+        transition: 0.5s;
+        }
+        
+button[type="button"]:hover {
+    background-color: #4A1616;
+    box-shadow: 2px 5px 10px #4A1616 ;
+    border: #4A1616;
+        }
+    
+a{
+    color: #000; 
+    text-decoration: none; 
+    transition: all .2s ease-in-out;
+          }
+        
+a:hover{
+    transform: scale(1.1);
+    color: #b08989;
+        }
+        
+        
+a {
+    color: #000; 
+    text-decoration: none; 
+        }
+        
+        
+        
+a:active {
+    color: #4A1616; 
+        }
+        
+        
+        
+
+   
+
+

@@ -1,0 +1,556 @@
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 15%;
+    margin-right: auto;
+}
+
+.header-container {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    font-size: 32px;
+    color: #000;
+    font-weight: 400;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#top {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-caption span {
+    color: #4a1616;
+    font: 900 40px Montserrat Alternates, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.main-caption p {
+    color: #000;
+    margin-top: 8px;
+    font: 400 20px Microsoft JhengHei, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.main-caption {
+    margin-top: 100px;
+    margin-left: 53px;
+}
+
+button.donation,
+button.adoption {
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    max-width: 203px;
+    max-height: 84px;
+    margin-top: 61px;
+    color: #fff;
+    padding: 27px 38px;
+    font: 700 32px Montserrat, sans-serif;
+}
+
+button{
+transition: 0.5s;
+}
+
+button[type="button"]:hover {
+    background-color: #4A1616;
+    box-shadow: 2px 5px 10px #4A1616 ;
+    border: #4A1616;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 88vh;
+    padding:10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.benefit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    font-size: 40px;
+}
+
+.benefit-t {
+    margin: auto;
+    background-image: url("images/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 717px;
+    height: 299.797px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.benefit-t span {
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+
+.bim1 {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.bim1,
+.bim2,
+.bim3,
+.bim4 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 400px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.bim1:hover,
+.bim2:hover,
+.bim3:hover,
+.bim4:hover{
+    transform:  scale(1.1);;
+}
+
+.bim1 {
+    background-image: url("images/boywithcat.jpg");
+    background-color: lightgray;
+}
+
+.bim2 {
+    background-image: url("images/dogplay.jpg");
+    background-color: lightgray;
+}
+
+.bim3 {
+    background-image: url("images/catsitonhands.jpg");
+    background-color: lightgray;
+}
+
+.bim4 {
+    background-image: url("images/programistwithdog.jpg");
+    background-color: lightgray;
+}
+
+.reason1,
+.reason2,
+.reason3,
+.reason4 {
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+
+.reason1{
+    margin-bottom: 40px;
+}
+.reason2,
+.reason3,
+.reason4 {margin-bottom: 110px;}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reason1,.reason2,.reason3,.reason4{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.reason1 span,.reason2 span,.reason3 span,.reason4 span{
+    width: 449px;
+    height: 100px;
+    border-radius: 35px;
+    background: #D3A9A9;
+    color: #4A1616;
+    font-family: "Microsoft JhengHei";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ccaption1,.ccaption2,.ccaption3,.ccaption4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 538px;
+    height: 143px;
+    color: #000;
+    font-family: "Microsoft JhengHei";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: justify;
+}
+
+.main-description{
+    margin:200px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-description span{
+    width: 480px;
+    position: relative;
+    font-size: 76px;
+    font-weight: 900;
+    font-family: Montserrat Alternates, -apple-system, Roboto, Helvetica;
+    color: #b08989;
+    white-space: pre-wrap;
+    text-align: center;
+}
+.help{
+    margin: 0;
+}
+
+#description{
+    width: 929px;
+    position: relative;
+    font-size: 48px;
+    font-family: 'Microsoft JhengHei';
+    color: #4a1616;
+    text-align: left;
+    display: inline-block;
+}
+
+.main-picture{
+    width: 110%;
+    height: 920px;
+    object-fit: contain;
+    background-image: url("images/beautiful-funy-dog.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -180px;
+}
+
+.main-description span{
+    width: 480px;
+    position: relative;
+    font-size: 76px;
+    font-weight: 900;
+    font-family: Montserrat Alternates, -apple-system, Roboto, Helvetica;
+    color: #b08989;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+
+.container1{
+    display: flex;
+    position: relative; 
+}
+
+.helplinks{
+    width: 460px;
+    position: absolute;
+    border-radius: 60px;
+    background-color: #f1dada;
+    height: 420px;
+    left: 58%;
+    top: 53%;
+    transform: scale(0.8); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.helplinks span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 36px;
+    font-family: 'Microsoft JhengHei';
+    color: #b08989;
+    height: 60px;
+    margin-bottom: 10px; 
+}
+
+.helplinks span a{
+    text-decoration: none; 
+    color: inherit; 
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 30%;
+    }
+
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        font-size: 24px;
+    }
+
+    .header-container img {
+        margin-bottom: 10px;
+    }
+
+    .header-container nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-container nav ul li {
+        font-size: 24px;
+    }
+
+    .main-caption {
+        margin-top: 20px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .main-caption span {
+        font-size: 28px;
+    }
+
+    .main-caption p {
+        font-size: 16px;
+    }
+
+    button.donation,
+    button.adoption {
+        max-width: 150px;
+        max-height: 60px;
+        font-size: 24px;
+        padding: 15px 20px;
+        margin-top: 30px;
+    }
+
+    .image-container {
+        padding: 0;
+        height: 60vh;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit-t {
+        width: 100%;
+        height: auto;
+    }
+
+    .benefit-t span {
+        font-size: 28px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bim1,
+    .bim2,
+    .bim3,
+    .bim4 {
+        width: 100%;
+        height: auto;
+        gap: 50px;
+    }
+
+    .reason1 span,
+    .reason2 span,
+    .reason3 span,
+    .reason4 span {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .ccaption1,
+    .ccaption2,
+    .ccaption3,
+    .ccaption4 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .main-description {
+        margin: 20px;
+    }
+
+    .main-description span {
+        font-size: 32px;
+    }
+
+    .help,
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .helplinks {
+        width: 80%;
+        height: auto;
+        transform: scale(1);
+    }
+
+    .helplinks span {
+        font-size: 24px;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fnav{
+    font-size: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+
+}
+
+footer {
+    background-color: #b08989;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+footer nav {
+    margin-bottom: 10px;
+  }
+  
+footer nav ul.fnav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+footer nav ul.fnav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+footer nav ul.fnav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+footer nav ul.fnav li a:hover {
+    text-decoration: underline;
+  }
+  
+footer p {
+    margin: 10px 0;
+  }
+  
+footer p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+footer p a:hover {
+    text-decoration: underline;
+  }
+  
+footer p strong {
+    font-weight: bold;
+  }
+  
+footer p:last-child {
+    font-size: 0.9em;
+    color: #e8e2e2;
+  }
+  
+a{
+    color: #000; 
+    text-decoration: none; 
+    transition: all .2s ease-in-out;
+  }
+
+a:hover{
+    transform: scale(1.1);
+    color: #b08989;
+}
+
+
+a {
+    color: #000; 
+    text-decoration: none; 
+}
+
+
+
+a:active {
+    color: #4A1616; 
+}
+

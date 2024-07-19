@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPETA - Adoption</title>
+    <link href="help.css" rel="stylesheet">
+    <link href="bv.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <style>
+        .blurry-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('background.jpg') center/cover no-repeat;
+            backdrop-filter: blur(5px); 
+            z-index: 1000;
+            display: none; 
+        }
+        .main {
+            position: relative; 
+            z-index: 1; 
+        }
+        .form-container {
+            position: fixed; 
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            background-color: #fff;
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            z-index: 1001;
+            display: none; 
+        }
+        .form-container.active {
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img class="logo" src="images/photo_2024-06-28_12-42-07__2_-removebg-preview.png" alt="logo">
+            <nav class="navigation">
+                <ul>
+                    <li id="top"><a class="scaled1" href="main.page.html">Home</a></li>
+                    <li id="top"><a class="scaled2" href="main.page.html#help">How to help</a></li>
+                    <li id="top">
+                        <a href="payment.html">
+                            <button class="donation" type="button" id="donation-btn" name="donation" value="Donate">Donate</button>
+                        </a>
+                    </li>
+                    <li id="top"><a class="scaled3" href="about.html">About us</a></li>
+                    <li id="top"><a class="scaled4" href="login.html">Log in / <a href="registration.html">Sign up</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="things" class="main">
+        <div class="column">
+            <div class="main-caption">
+                <span>Help with things</span>
+                <p>Help can be sent by Nova Poshta: smt. Dymer,<br> branch of NP No. 1, 067 243-02-74, Andriy <br> Serhiyevich Zakharchenko. You can find a car for a<br> trip to the shelter or to transfer things in the<br> group of trips to the shelter in FB.</p>
+                <div class="containerN">
+                    <span id="n">Questions remain:</span>
+                    <div class="number phoneNumber">
+                        <a class="phoneLink" href="tel:+380931934069">+380931934069</a>
+                        <button type="button" class="copyButton">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="volonteer" class="column2">
+            <div class="image-container">
+                <figure id="main-image" alt="dog sleep"></figure>
+                <div class="rectangle">
+                    <span id="t">What does the shelter need?</span>
+                    <span id="c">If you want to help with things,<br> it can be warm things, goodies, medicine.</span>
+                    <a href="https://docs.google.com/spreadsheets/d/1X96PeGwxVvOsQWWxXmQZb4wKkpa4ednVsydSqqHT6wg/edit?gid=1132123367#gid=1132123367">
+                        <label for="goods"></label>
+                        <button type="button" name="goods" id="goods"><span>More about needs</span></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="volonteer">
+            <span id="ti">Become a volunteer</span>
+            <span id="question">Do you want to join a team of superheroes who<br> help animals?</span>
+            <button id="openFormBtn" class="btn">Become a volunteer</button>
+        </div>
+        <img id="i1" src="images/whitekitty.png" alt="white kitty">
+        <img id="i2" src="images/alonedogandcat.png" alt="dog and cat">
+        
+        <div class="blurry-background" id="blurryBackground"></div>
+      
+        <div class="form-container" id="formContainer">
+            <h2>Become a Volunteer</h2>
+            <form action="https://formspree.io/f/manwnzoe" method="POST" id="volunteerForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="phone">Your Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+        
+                <label for="message">Why do you want to volunteer?</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="event" class="container">
+            <span id="st">Organize a furry event</span><br>
+            <div class="r2">
+                <span id="sc">It's easy to help. And it's even easier - when you do it for fun! Create charity campaigns: themed parties, fairs, auctions, special birthdays. There can be many ideas - we will help to implement them!</span>
+            </div>
+            <div>
+                <div class="containerN">
+                    <span id="n">You can share offers or ask questions<br>using the phone number above</span>
+                </div>
+                <figure id="cats"><img src="images/Safe_Cat__Safe_Wildlife_-removebg-preview.png" alt="many cats"></figure>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="fnav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#help">How to help</a></li>
+                <li><a href="petadoption.html">Adopt a pet</a></li>
+                <li><a href="payment.html">Donate</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="adoptionrules.html">Adoption rules</a></li>
+            </ul>
+        </nav>
+        <p>
+            <strong>Email:</strong> <a href="mailto:anastasiakurdiukov@gmail.com">anastasiakurdiukov@gmail.com</a><br>
+             <strong>Phone:</strong>  <a id="phoneLink" href="tel:+380666595234">+380666596234</a>
+        </p>
+        <p>&copy; 2024 UPETA Website was developed by Kurdiukova Anastasia, group 122-23-1</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.copyButton').forEach(button => {
+            button.addEventListener('click', function() {
+                var phoneNumber = this.previousElementSibling.textContent;
+                var tempInput = document.createElement('input');
+                tempInput.value = phoneNumber;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+                alert('Phone number copied: ' + phoneNumber);
+            });
+        });
+
+        document.getElementById('openFormBtn').addEventListener('click', function() {
+            var formContainer = document.getElementById('formContainer');
+            var blurryBackground = document.getElementById('blurryBackground');
+            formContainer.classList.add('active'); 
+            blurryBackground.style.display = 'block';
+        });
+
+        document.getElementById('blurryBackground').addEventListener('click', function() {
+            var formContainer = document.getElementById('formContainer');
+            var blurryBackground = document.getElementById('blurryBackground');
+            formContainer.classList.remove('active');
+            blurryBackground.style.display = 'none';
+        });
+
+       
+
+    </script>
+</body>
+</html>
+
+

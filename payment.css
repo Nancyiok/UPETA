@@ -1,0 +1,235 @@
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 15%;
+    margin-right: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    font-size: 32px;
+    color: #000;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px;
+    transform: scale(0.9); 
+}
+
+.donation-options {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#adoption-btn{
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    max-width: 203px;
+    max-height: 84px;
+    margin-top: 61px;
+    color: #fff;
+    padding: 27px 38px;
+    font: 700 32px Montserrat, sans-serif;
+    align-self: center;
+}
+#adoption-btn:hover{
+    background-color: #4A1616;
+    box-shadow: 2px 5px 10px #4A1616;
+    border: 1px solid #4A1616; 
+    
+}
+
+
+.donation-amount {
+    margin-bottom: 20px; 
+}
+
+.donation-photo {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation-photo img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.chousetype {
+    text-align: center; 
+}
+
+#custom-amount{
+    border-radius: 50px;
+    border-color: rgba(176, 171, 171, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-top: 14px;
+    height: 60px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#confirm-btn {
+    text-align: center;
+    border-radius: 50px;
+    border-color: rgba(176, 137, 137, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #b08989;
+    margin-top: 20px;
+    color: #fff;
+    font: 650 32px Microsoft Tai Le, -apple-system, Roboto, Helvetica, sans-serif;
+    height: 60px;
+    width: 430px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+#confirm-btn:hover {
+    background-color: #4A1616;
+    box-shadow: 2px 5px 10px #4A1616;
+    border: 1px solid #4A1616; 
+}
+
+
+#title{
+    width: 660px;
+position: relative;
+font-size: 40px;
+display: inline-block;
+color: #4a1616;
+text-align: center;
+height: 107px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fnav{
+    font-size: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+
+}
+
+footer {
+    background-color: #b08989;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  footer nav {
+    margin-bottom: 10px;
+  }
+  
+  footer nav ul.fnav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer nav ul.fnav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  footer nav ul.fnav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer nav ul.fnav li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    margin: 10px 0;
+  }
+  
+  footer p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p strong {
+    font-weight: bold;
+  }
+  
+  footer p:last-child {
+    font-size: 0.9em;
+    color: #e8e2e2;
+  }
+  
+  a:hover{
+    transform: scale(1.1);
+    color: #b08989;
+}
+
+
+a {
+    color: #000; 
+    text-decoration: none; 
+}
+
+
+
+a:active {
+    color: #4A1616; 
+}
+
+
+
+
+

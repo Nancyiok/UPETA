@@ -1,0 +1,195 @@
+body {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    background-color: #F8DFDF;
+}
+
+#greet {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#photoUpload{
+    margin: auto;
+}
+
+/* Стилі для label */
+label {
+    display: block; /* Виводить ярлик на новому рядку */
+    margin-bottom: 10px; /* Відступ вниз від ярлика */
+    font-size: 18px; /* Розмір шрифту ярлика */
+    color: #333; /* Колір тексту ярлика */
+}
+
+/* Стилі для input[type="file"] */
+input[type="file"] {
+    border: 1px solid #ccc; /* Рамка навколо вибору файлу */
+    padding: 8px; 
+    background-color: #f9f9f9; /* Фон вибору файлу */
+    border-radius: 5px; 
+}
+
+/* При наведенні курсору миші на вибір файлу */
+input[type="file"]:hover {
+    background-color: #cbc3c3; 
+}
+
+
+#name ,#age ,#story{
+    border-radius: 50px;
+    border-color: rgba(176, 171, 171, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-top: 14px;
+    height: 60px;
+    width: 300px;
+    margin-right: 10px;
+    margin: auto;
+}
+#adminContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.animal-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.admin-animal-photo {
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #b08989;
+    border: none;
+    border-radius: 27px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 60px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #a07878;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fnav{
+    font-size: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+
+}
+
+footer {
+    background-color: #b08989;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  footer nav {
+    margin-bottom: 10px;
+  }
+  
+  footer nav ul.fnav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer nav ul.fnav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  footer nav ul.fnav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer nav ul.fnav li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    margin: 10px 0;
+  }
+  
+  footer p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p strong {
+    font-weight: bold;
+  }
+  
+  footer p:last-child {
+    font-size: 0.9em;
+    color: #e8e2e2;
+  }
+  
+  a{
+    color: #000; 
+    text-decoration: none; 
+    transition: all .2s ease-in-out;
+  }
+
+a:hover{
+    transform: scale(1.1);
+    color: #b08989;
+}
+
+
+a {
+    color: #000; 
+    text-decoration: none; 
+}
+
+
+
+a:active {
+    color: #4A1616; 
+}
+
+
+
+
+

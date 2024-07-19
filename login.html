@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPETA</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <style>
+       .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            object-position: center;
+            width: 201px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <div class="container">
+            <div class="column">
+                <img src="images/catwithpawup.jpg" class="photocat" />
+            </div>
+            <div class="column-2">
+                <div class="header">
+                    <header>
+                        <a href="main.page.html">
+                            <img class="logo" src="images/photo_2024-06-28_12-42-07__2_-removebg-preview.png" alt="Logo">
+                        </a>
+                    </header>
+                    <div class="headerlog">Log in</div>
+                    <div class="captionlog">
+                        Welcome back! Please login to your
+                        <br />
+                        account.
+                    </div>
+                    <div class="login">
+                        <input class="username" type="text" id="username" maxlength="15" minlength="5" placeholder="User Name" required><br>
+                        <input class="password" type="password" id="password" placeholder="Password" required><br>
+                        <button class="blogin" id="login-btn" onclick="login()">Log in</button><br>
+                        <span id="loginpassword-match-message" class="error"></span><br>
+                    </div>
+                    <div class="registration">
+                        <span class="question">Don’t have an account yet?</span><br>
+                        <span class="transition"><a href="registration.html">Registration</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const adminUsername = 'Nancy_2024';
+        const adminPassword = 'kurdiukova122';
+
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (username === adminUsername && password === adminPassword) {
+                window.location.href = 'adminpage.html';
+            } else {
+                document.getElementById('loginpassword-match-message').innerHTML = 'Check your username and password';
+            }
+        }
+    </script>
+</body>
+</html>

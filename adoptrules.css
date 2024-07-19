@@ -1,0 +1,350 @@
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 15%;
+    margin-right: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    font-size: 32px;
+    color: #000;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.logo {
+    margin-right: auto;
+}
+
+.main-caption {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center; 
+    height: 100vh;
+    text-align: center; 
+    gap: 20px;
+}
+
+#title {
+    width: 80%;
+    position: relative;
+    font-size: 96px;
+    display: inline-block;
+    color: #4a1616;
+    height: 120px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    transform:  scale(0.8);
+}
+
+#caption {
+    width: 1080px;
+    position: relative;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: Mulish;
+    color: #a57676;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    transform:  scale(0.7);
+
+}
+
+.paw1 {
+    position: absolute;
+    top: 15%; 
+    left: 60%; 
+    z-index: 1;
+    transform: rotate(-15deg) scale(0.4);
+}
+
+.paw2 {
+    position: absolute;
+    top: 40%; 
+    right: 70%; 
+    z-index: 1;
+    transform: rotate(15deg) scale(0.4);
+
+}
+
+.donation {
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    max-width: 203px;
+    max-height: 84px;
+    margin-top: 61px;
+    color: #fff;
+    padding: 27px 38px;
+    font: 700 32px Montserrat, sans-serif;
+}
+
+button[type="button"]:hover {
+    background-color: #4A1616;
+}
+
+.caption2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 64px;
+    font-family: 'Mulish', sans-serif;
+    color: #4a1616;
+    height: 98px;
+    transform:  scale(0.9);
+    margin-bottom: 0;
+
+}
+
+.forcolor {
+    background-color: #F8DFDF;
+}
+
+.r {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 160px;
+    justify-content: center;
+    transform:  scale(0.8);
+}
+
+.r1, .r2, .r3, .r4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    font-size: 32px;
+    font-weight: 850;
+     font-family: 'Mulish', sans-serif;
+    color: #fff;
+    width: 400px;
+    height: 350px;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.r1 {
+    background: url("images/doctorpet.jpg") lightgray;
+    background-position: center;
+}
+
+.r2 {
+    background: url("images/doggi.png") lightgray;
+    background-position: right;
+}
+
+.r3 {
+    background: url("images/learn.jpg") lightgray;
+    background-position: right;
+}
+
+.r4 {
+    background: url("images/catp.png") lightgray;
+    background-position: top right;
+}
+
+.r span {
+    text-align: center;
+}
+
+.r1:hover,
+.r2:hover,
+.r3:hover,
+.r4:hover{
+    transform:  scale(1.2);}
+
+
+    .rules{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        color: #4a1616;
+        font-weight: 800;
+    
+        
+    }
+    
+    .rulecap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 1510px;
+        border-radius: 70px;
+        background-color: #fff;
+        border: 2px solid #a57676;
+        height: 600px;
+        font-size: 24px;
+        color: #4a1616;
+        font-weight: 500;
+    }
+
+    .rulecap1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 1510px;
+        border-radius: 70px;
+        background-color: #fff;
+        border: 2px solid #a57676;
+        height: 400px;
+        font-size: 24px;
+        color: #4a1616;
+        font-weight: 500;
+    }
+    
+#r::before
+{
+    content:"🐾"
+}
+
+.return{
+    margin-top: 100px;
+    border-radius: 50px;
+    background-color: #b08989;
+    border: none;
+    width: 500px;
+    height: 91px;
+    color: #fff;
+    font: 700 24px Montserrat, sans-serif;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fnav{
+    font-size: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+
+}
+
+footer {
+    background-color: #b08989;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  footer nav {
+    margin-bottom: 10px;
+  }
+  
+  footer nav ul.fnav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer nav ul.fnav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  footer nav ul.fnav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer nav ul.fnav li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    margin: 10px 0;
+  }
+  
+  footer p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p strong {
+    font-weight: bold;
+  }
+  
+  footer p:last-child {
+    font-size: 0.9em;
+    color: #e8e2e2;
+  }
+
+  a{
+    color: #000; 
+    text-decoration: none; 
+    transition: all .2s ease-in-out;
+  }
+
+a:hover{
+    transform: scale(1.1);
+    color: #b08989;
+}
+
+
+a {
+    color: #000; 
+    text-decoration: none; 
+}
+
+
+
+a:active {
+    color: #4A1616; 
+}
+
+
+
+
+
+

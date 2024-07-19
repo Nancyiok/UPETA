@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PAGE</title>
+    <link href="ap.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <span id="greet">Hello, admin!  <img src="images/dog-smile-shyboos.gif" alt="Animated GIF" width="140" height="120"></span>
+    <form id="animalForm">
+        <label for="photoUpload">Photo:</label>
+        <input type="file" id="photoUpload" name="photoUpload" accept="image/*" >
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+        
+        <label for="story">Story:</label>
+        <input type="text" id="story" name="story" required>
+        
+        <button type="button" onclick="addAnimal()">Add Animal</button>
+    </form>
+    <div id="adminContainer"></div>
+    <br>
+    <footer>
+        <nav>
+            <ul class="fnav">
+              <li><a href="main.page.html">Home</a></li>
+              <li><a href="main.page.html#help">How to help</a></li>
+              <li><a href="petadoption.html">Adopt a pet</a></li>
+              <li><a href="payment.html">Donate</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="adoptionrules.html">Adoption rules</a></li>
+            </ul>
+        </nav>
+        <p>
+          <strong>Email:</strong> <a href="mailto:anastasiakurdiukov@gmail.com">anastasiakurdiukov@gmail.com</a><br>
+          <strong>Phone:</strong> +380666595234
+        </p>
+        <p>&copy; 2024 UPETA Website was developed by Kurdiukova Anastasia, group 122-23-1</p>
+    </footer>
+    <script src="petadopt.js"></script>
+</body>
+</html>

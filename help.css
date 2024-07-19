@@ -1,0 +1,443 @@
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.logo {
+    width: 15%;
+    margin-right: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    font-size: 32px;
+    color: #000;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.logo {
+    margin-right: auto;
+}
+
+.header-container button {
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    max-width: 203px;
+    max-height: 84px;
+    margin-top: 61px;
+    color: #fff;
+    padding: 27px 38px;
+    font: 700 32px Montserrat, sans-serif;
+    align-self: center;
+}
+
+.header-container button:hover {
+    background-color: #4A1616;
+}
+
+.main-caption {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.main-caption span:first-child {
+    color: #4a1616;
+    font: 900 70px Montserrat Alternates, -apple-system, Roboto, Helvetica;
+}
+
+.main-caption p {
+    color: #000;
+    margin-top: 8px;
+    font: 400 26px Microsoft JhengHei, -apple-system, Roboto, Helvetica, sans-serif;
+}
+ 
+#n{
+    font: 800 36px Montserrat Alternates, -apple-system, Roboto, Helvetica;
+    color: #a57676;
+}
+
+.main-caption {
+    margin-top: 30px;
+    margin-left: 53px;
+}
+
+#main-image {
+    border-radius: 50px;
+    height: 600px;
+    width: 500px;
+    background-image: url("images/dogsleep.jpg");
+    background-position: center top;
+    transform: rotate(14deg) scale(0.8) translateY(-30px) translateX(50px);
+    border: 20px solid #b08989;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    transform: scale(0.86);
+}
+
+.image-container {
+    margin: 0;
+}
+
+.rectangle {
+    width: 400px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #eac8c8;
+    height: 420px;
+    transform: rotate(-5deg) translateY(-450px) translateX(-70px) scale(0.83);
+    transform-origin: 0 0;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#t {
+    font-size: 24px;
+    display: flex;
+    font-family: Montserrat Alternates, -apple-system, Roboto, Helvetica;
+    font-weight: 900;
+    color: #4A1616;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    border-radius: 30px;
+    background-color: #fff0f0;
+    height: 75.7px;
+    transform-origin: 0 0;
+    margin: 20px;
+    top: 20px;
+}
+
+#c {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    transform-origin: 0 0;
+    font-weight: 750;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#goods {
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    width: 250px;
+    max-height: 84px;
+    margin-top: 61px;
+    color: #fff;
+    padding: 27px 38px;
+    font: 700 32px' Montserrat', sans-serif;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#goods span {
+    width: 200px;
+    font-size: 24px;
+    font-family:Montserrat Alternates, -apple-system, Roboto, Helvetica;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+#goods:hover {
+    background-color: #4A1616;
+}
+
+.volonteer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    gap:30px;
+}
+
+#ti{
+    width: 1202px;
+    font-size: 80px;
+    color: #4a1616;
+    height: 94px;
+    font-weight: 900;
+    
+}
+
+#openFormBtn:hover{
+    box-shadow: 2px 5px 10px #4A1616 ;
+    border: #4A1616;
+}
+
+#question{
+    width: 815px;
+    font-size: 32px;
+    color: #b08989;
+    text-align: center;
+    font-weight: 700;
+}
+
+#k{
+    width: 621px;
+    font-size: 36px;
+    color: #d3a9a9;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.volonteer button{
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    max-width: 400px;
+    max-height: 84px;
+    margin-top: 61px;
+    color: #fff;
+    padding: 27px 38px;
+    font: 700 32px Montserrat, sans-serif;
+    align-self: center;
+}
+
+.copyButton{
+    border-radius: 27px;
+    background-color: #b08989;
+    border: none;
+    max-width: 300px;
+    max-height: 84px;
+    color: #fff;
+    padding: 10px 20px;
+    font: 700 32px Montserrat, sans-serif;
+    align-self: center;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.phoneNumber{
+    font: 600 32px Montserrat, sans-serif;
+    color:#4A1616
+   
+}
+
+.number{
+    margin-top: 20px;
+}
+
+
+
+.line1{
+    width: 25%;
+    position: absolute;
+    border-radius: 30px;
+    background-color: rgba(248, 223, 223, 0.72);
+    height: 45px;
+  
+}
+
+
+
+#i1{
+    transform: scale(0.8);
+    top: 124%;
+    right:70%;
+    position: absolute;
+    
+}
+ #i2{
+    transform: scale(0.8);
+    top: 130%;
+    left:64%;
+    position: absolute;
+ }
+
+.backg{
+    margin: 150px 0;
+    background-color: #F9E8E8;
+    text-align: center;
+}
+
+.buttons{
+    background-color: #fff;
+
+}
+
+.container {
+    padding: 10px;
+    margin: 200px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+#st{
+    font-size: 96px;
+    font-weight: 700;
+    display: inline-block;
+    color: #4a1616;
+}
+
+#sc{
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #4a1616;
+}
+
+.r2{
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    margin: 40px auto;
+    width: 900px;
+    border-radius: 30px;
+    background-color: #fff0f0;
+    border: 1px solid #b08989;
+    height: 331px;
+}
+
+.phoneLink{
+font-size: 32px;
+color: #000;
+
+}
+
+
+figure#cats{
+    margin: -150px;
+    transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fnav{
+    font-size: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+
+}
+
+footer {
+    background-color: #b08989;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+footer nav {
+    margin-bottom: 10px;
+  }
+  
+footer nav ul.fnav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+footer nav ul.fnav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+footer nav ul.fnav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+footer nav ul.fnav li a:hover {
+    text-decoration: underline;
+  }
+  
+footer p {
+    margin: 10px 0;
+  }
+  
+footer p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+footer p a:hover {
+    text-decoration: underline;
+  }
+  
+footer p strong {
+    font-weight: bold;
+  }
+  
+footer p:last-child {
+    font-size: 0.9em;
+    color: #e8e2e2;
+  }
+  
+a{
+        color: #000; 
+        text-decoration: none; 
+        transition: all .2s ease-in-out;
+      }
+    
+a:hover{
+        transform: scale(1.1);
+        color: #b08989;
+    }
+    
+    
+a {
+        color: #000; 
+        text-decoration: none; 
+    }
+    
+a:active {
+        color: #4A1616; 
+    }
+    
+    
+
